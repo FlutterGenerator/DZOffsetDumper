@@ -2,8 +2,6 @@
 
 package com.dzimmortal.Offsetdummper;
 
-import android.animation.ValueAnimator;
-import android.annotation.TargetApi;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningAppProcessInfo;
 import android.app.AlertDialog;
