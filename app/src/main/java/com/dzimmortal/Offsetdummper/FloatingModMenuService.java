@@ -84,7 +84,7 @@ public class FloatingModMenuService extends Service {
   int ToggleOFF = Color.WHITE;
   int BtnON = Color.parseColor("#FF1B5E20");
   int BtnOFF = Color.parseColor("#FF7F0000");
-  int CategoryBG = Color.parseColor("#FF000009");
+  int CategoryBG = Color.parseColor("#FF00FAFA");
   int SeekBarColor = Color.parseColor("#FF80CBC4");
   int SeekBarProgressColor = Color.parseColor("#FF80CBC4");
   int CheckBoxColor = Color.parseColor("#FF80CBC4");
@@ -1144,8 +1144,8 @@ public class FloatingModMenuService extends Service {
     TextView textView = new TextView(this);
 
     GradientDrawable bg = new GradientDrawable();
-    bg.setColor(Color.parseColor("#FF000009")); // фон
-    bg.setStroke(3, Color.parseColor("#FF00FAFA")); // голубая рамка
+    bg.setColor(CategoryBG); // фон
+    //bg.setStroke(3, Color.parseColor("#FF00FAFA")); // голубая рамка
     //bg.setCornerRadius(10f);
 
     textView.setBackground(bg);
